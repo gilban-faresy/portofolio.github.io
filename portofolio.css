@@ -381,5 +381,62 @@ footer h2{
     .section4{
         height: 230vh;
     }
+  
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    header {
+        padding: 0 15px; /* Mengurangi padding di header */
+    }
+    .header-right{
+        margin-top: 10px;
+        font-size: 27px;
+    }
+    header a{
+        font-size: 12px;
+    }
 
+    .myname {
+        margin: 8% 0 0 15px; /* Menyesuaikan margin untuk nama */
+    }
+    .myname a{
+        margin: 20px;
+
+    }
+
+    .main img {
+        display: none; /* Menyembunyikan gambar pada layar kecil */
+    }
+
+    .section2 {
+        flex-direction: column; /* Mengubah layout ke flex column */
+        height: auto;
+    }
+
+    .section2 img {
+        margin: 20px auto; /* Menyesuaikan margin gambar */
+        width: 80%; /* Mengatur lebar gambar */
+    }
+
+    .parag1 {
+        margin: 20px; /* Menyesuaikan margin paragraf */
+    }
+
+    .section2 a {
+        margin-left: 0; /* Mengatur ulang margin kiri pada link */
+    }
+    .svg{
+        font-size: 0.7em;
+    }
+    .box1 p,.box2 p{
+        text-align: left;
+    }
+    .box2 h2{
+        margin-top: 10px;
+    }
+
+    .contact1 {
+        width: 100%; /* Mengubah lebar contact box */
+        float: none;
+        text-align: center;
+    }
 }
