@@ -341,9 +341,7 @@ footer h2{
     }
 
     .main img {
-
-        height:185px ;
-        width: 185px;
+        display: none;
     }
 
     .section2 {
@@ -360,15 +358,25 @@ footer h2{
         margin: 20px; /* Menyesuaikan margin paragraf */
     }
 
-    .section2 a,
-    .box1 a,
-    .box2 a {
-        margin-left: 30%; /* Mengatur ulang margin kiri pada link */
+    .section2 a{
+        margin-left: 0; /* Mengatur ulang margin kiri pada link */
     }
-    .box1,
+
+    .svg{
+        font-size: 0.8em;
+    }
+
+    /* .box2 h2{
+        margin-top: 10px;
+    } */
+
+    /* .box1,
     .box2{
         height: 350px;
-    }
+    } */
+
+
+
     .section3{
         height: 115vh;
     }
@@ -383,6 +391,8 @@ footer h2{
     }
   
 }
+
+
 @media screen and (min-width: 400px) and (max-width: 420px) {
     header {
         padding: 0 15px; /* Mengurangi padding di header */
