@@ -391,26 +391,22 @@ footer h2{
     }
   
 }
-
-
-@media screen and (min-width: 400px) and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     header {
-        padding: 0 15px; /* Mengurangi padding di header */
+        padding: 0 10px; /* Mengurangi padding di header */
     }
     .header-right{
-        margin-top: 10px;
-        font-size: 27px;
+        font-size: 20px;
+        margin: 15px 0 0 0;
+
     }
     header a{
-        font-size: 12px;
+        font-size: 8px;
+        
     }
 
     .myname {
         margin: 8% 0 0 15px; /* Menyesuaikan margin untuk nama */
-    }
-    .myname a{
-        margin: 20px;
-
     }
 
     .main img {
@@ -434,14 +430,12 @@ footer h2{
     .section2 a {
         margin-left: 0; /* Mengatur ulang margin kiri pada link */
     }
+    .box1 a,.box2 a{
+        margin-left:45px; 
+    }
+
     .svg{
-        font-size: 0.7em;
-    }
-    .box1 p,.box2 p{
-        text-align: left;
-    }
-    .box2 h2{
-        margin-top: 10px;
+        font-size: 0.5em;
     }
 
     .contact1 {
@@ -449,4 +443,6 @@ footer h2{
         float: none;
         text-align: center;
     }
+
+    /* Penyesuaian lain yang diperlukan sesuai desain Anda */
 }
