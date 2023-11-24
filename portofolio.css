@@ -121,6 +121,9 @@ margin: 17% 0px 0 50px;
 .parag1{
     margin:50px 150px 0 50px;
 }
+.parag1 p{
+    text-align: left;
+}
 .section2 a{
     margin: 20px 0 0 50px;
     font-size: 20px;
@@ -206,8 +209,8 @@ margin:20px 0 0 30% ;
     padding: 5px 15px;
     margin-left: 36%;
     transition: .5s;
-
 }
+
 .box1 a:hover{
     background: transparent;
     border:2px solid gold;
@@ -277,10 +280,106 @@ margin:20px 0 0 30% ;
 }
 
 footer{
-    height: 20vh;
+    height: 11vh;
     background-color:rgb(22, 21, 21);
 }
 footer h2{
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0 20px; /* Mengurangi padding di header */
+    }
+
+    .myname {
+        margin: 10% 0 0 20px; /* Menyesuaikan margin untuk nama */
+    }
+
+    .main img {
+    width: 300px;
+    height: 300px;
+    }
+
+
+    .section2 {
+        flex-direction: column; /* Mengubah layout ke flex column */
+        height: auto;
+    }
+
+    .section2 img {
+        margin: 20px auto; /* Menyesuaikan margin gambar */
+    }
+
+    .parag1 {
+        margin: 20px; /* Menyesuaikan margin paragraf */
+    }
+
+    .section2 a,
+    .box1 a,
+    .box2 a {
+        margin-left: 40%; /* Mengatur ulang margin kiri pada link */
+    }
+
+    .contact1 {
+        width: 100%; /* Mengubah lebar contact box */
+        float: none;
+        text-align: center;
+    }
+    .section4 {
+    height: 180vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0 20px; /* Mengurangi padding di header */
+    }
+
+    .myname {
+        margin: 8% 0 0 20px; /* Menyesuaikan margin untuk nama */
+    }
+
+    .main img {
+
+        height:185px ;
+        width: 185px;
+    }
+
+    .section2 {
+        flex-direction: column; /* Mengubah layout ke flex column */
+        height: auto;
+    }
+
+    .section2 img {
+        margin: 20px auto; /* Menyesuaikan margin gambar */
+        width: 80%; /* Mengatur lebar gambar */
+    }
+
+    .parag1 {
+        margin: 20px; /* Menyesuaikan margin paragraf */
+    }
+
+    .section2 a,
+    .box1 a,
+    .box2 a {
+        margin-left: 30%; /* Mengatur ulang margin kiri pada link */
+    }
+    .box1,
+    .box2{
+        height: 350px;
+    }
+    .section3{
+        height: 115vh;
+    }
+
+    .contact1 {
+        width: 100%; /* Mengubah lebar contact box */
+        float: none;
+        text-align: center;
+    }
+    .section4{
+        height: 230vh;
+    }
+
 }
