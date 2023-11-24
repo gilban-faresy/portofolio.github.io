@@ -338,7 +338,12 @@ footer h2{
 
     .myname {
         margin: 15% 0 0 20px; /* Menyesuaikan margin untuk nama */
-        padding: 40px;
+        padding: 40px 0 0 0;
+    }
+    .blur{
+        position: absolute;
+    box-shadow: 0px 0px 200px 90px rgb(249, 249, 0);
+    z-index: -100px;
     }
 
     .main img {
