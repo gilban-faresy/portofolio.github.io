@@ -371,7 +371,12 @@ footer h2{
     .svg{
         font-size: 0.8em;
     }
-
+    .box1 a{
+        margin-left:33%; 
+    }
+    .box2 a{
+        margin-left: 37%;
+    }
     /* .box2 h2{
         margin-top: 10px;
     } */
@@ -394,6 +399,9 @@ footer h2{
     }
     .section4{
         height: 230vh;
+    }
+    footer{
+        height: 20vh;
     }
   
 }
@@ -440,13 +448,13 @@ footer h2{
         margin-left: 0; /* Mengatur ulang margin kiri pada link */
     }
     .box1 a,.box2 a{
-        margin-left:45px; 
+        margin-left:33%; 
     }
 
 
     .svg{
         font-size: 0.4em;
-
+        padding-left:20px ;
     }
 
     .contact1 {
