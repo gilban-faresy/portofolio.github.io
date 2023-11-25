@@ -410,6 +410,9 @@ footer h2{
         font-size: 8px;
         
     }
+    .blur{
+        display: none;
+    }
 
     .myname {
         margin: 8% 0 0 15px; /* Menyesuaikan margin untuk nama */
@@ -450,6 +453,9 @@ footer h2{
         width: 100%; /* Mengubah lebar contact box */
         float: none;
         text-align: center;
+    }
+    footer{
+        height: 20vh;
     }
 
     /* Penyesuaian lain yang diperlukan sesuai desain Anda */
